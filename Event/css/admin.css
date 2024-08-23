@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://images.pexels.com/photos/1131406/pexels-photo-1131406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover;
+    background-repeat: no-repeat;
+    
+}
+table,th,td{
+   padding: 1rem;
+   border-collapse: collapse;
+}
+.con{
+    width: auto;
+    height: 90vh;
+    background-color: #fff5;
+    backdrop-filter:blur(8px);
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+tr:nth-child(even){
+    background-color: #fffb;
+}
+.cont{
+    width: auto;
+    height: 90vh;
+    background-color: #fff5;
+    backdrop-filter:blur(8px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cont table{
+    padding-left: 10vh;
+}
+.sele{
+    height: 30px;
+    width: 60px;
+    border-collapse: collapse;
+    outline: none;
+    border: none;
+    width: auto;
+    border-radius: 10px;
+    background: #fffb;
+}
+.sele:hover{
+    border: 2px solid lightgreen;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    height: 30px;
+    width: 60px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+button:hover{
+    border: 2px solid lightgreen;
+}

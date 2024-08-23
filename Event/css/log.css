@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'outfit';
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/2879820/pexels-photo-2879820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contain{
+    margin-top: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 10px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.head{
+    font-size: 30px;
+    color:brown;
+}
+.head hr{
+    height: 3px;
+    width: 150px;
+    margin-top: 2px;
+    border-radius: 20px;
+    border: none;
+    background-color: brown;
+}
+input{
+    height: 50px;
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 25px;
+    outline: none;
+    font-size: large;
+}
+input::placeholder{
+    color: grey;
+    font-size: large;
+}
+input:focus{
+    border: 2px solid brown;
+}
+.btn{
+    height: 40px;
+    width: 90px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: large;
+}
+.btn:focus{
+    border: 2px solid brown;
+}

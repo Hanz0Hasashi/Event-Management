@@ -1,0 +1,41 @@
+*{
+    inset: 0;
+}
+body{
+    font-family: 'outfit';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/2879824/pexels-photo-2879824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page{
+    font-size: 30px;
+}
+.container{
+    font-size: large;
+    font-family:sans-serif;
+    height: 500;
+    width: 400;
+    background: lightblue;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    height: 40px;
+    width: 80px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: blueviolet;
+    border-radius: 15px;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
